@@ -1,0 +1,24 @@
+body{
+    background-color: red;
+}
+.anchor{
+    align-items: center;
+    text-decoration: none;
+    color: beige;
+    font-size: 15px;
+}
+h1{
+    animation: imran 6s infinite;
+    border-color: blue;
+    color: cyan;
+    text-align: center;
+    border-radius: 6px;
+}
+@keyframes imran{
+    
+    0%{background-color: blue;}
+    25%{background-color: rgb(251, 255, 0);}
+    50%{background-color: rgb(98, 0, 255);}
+    75%{background-color: rgb(0, 255, 0);}
+    100%{background-color: rgb(255, 174, 0);}
+}
